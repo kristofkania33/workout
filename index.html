@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workouts</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+     <h1>Witaj w kreatorze treningów</h1>
+     <h2>Zestaw ćwiczeń</h2>
+     <table>
+     	<thead>
+     		<th>Twoje ćwiczenie</th>
+     	</thead>
+     	<tbody id="excercise"></tbody>
+     </table>
+     <p id="time"></p>
+     <form id="set">
+       <p>Nowe ćwiczenie</p>
+       <input type="name" name="training" id="train">
+       <p>Podaj czas trwania ćwiczenia w minutach</p>
+       <input type="number" name="training" id="time">
+       <button type="submit" id="addElement">Dodaj ćwiczenie</button>
+    </form>
+    <button type="submit" id="create">Wygeneruj zestaw</button>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

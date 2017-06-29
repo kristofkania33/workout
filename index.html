@@ -11,19 +11,24 @@
      <h2>Zestaw ćwiczeń</h2>
      <table>
      	<thead>
-     		<th>Twoje ćwiczenie</th>
+     		<th>
+     		   <td>Twoje ćwiczenie</td>
+     		</th>
      	</thead>
-     	<tbody id="excercise"></tbody>
+     	<tbody >
+     	     <tr id="excercise">
+     	     </tr>
+        </tbody>
      </table>
-     <p id="time"></p>
+     <p id="show_time"></p>
      <form id="set">
        <p>Nowe ćwiczenie</p>
-       <input type="name" name="training" id="train">
+       <input type="name" name="training" id="workout_name">
        <p>Podaj czas trwania ćwiczenia w minutach</p>
-       <input type="number" name="training" id="time">
-       <button type="submit" id="addElement">Dodaj ćwiczenie</button>
+       <input type="number" name="training" id="workout_time">
+       <button type="submit" id="addWorkout">Dodaj ćwiczenie</button>
     </form>
-    <button type="submit" id="create">Wygeneruj zestaw</button>
+    <button type="submit" id="create_workout_set">Wygeneruj zestaw</button>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
